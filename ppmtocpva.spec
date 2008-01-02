@@ -11,6 +11,7 @@ Patch1:		ppmtocpva-1.0-netpbm.patch
 BuildRequires:	netpbm-devel
 Conflicts:	printer-utils = 2007
 Conflicts:	printer-filters = 2007
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This program converts PPM files to the format used by the Citizen Printiva
