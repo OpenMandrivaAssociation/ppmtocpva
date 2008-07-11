@@ -1,7 +1,7 @@
 Summary:	Converts PPM files to the format used by the Citizen Printiva series printers
 Name:		ppmtocpva
 Version:	1.0
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL
 Group:		System/Printing
 URL:		http://www.stevens-bradfield.com/ppmtomd/
@@ -11,7 +11,7 @@ Patch1:		ppmtocpva-1.0-netpbm.patch
 BuildRequires:	netpbm-devel
 Conflicts:	printer-utils = 2007
 Conflicts:	printer-filters = 2007
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This program converts PPM files to the format used by the Citizen Printiva
