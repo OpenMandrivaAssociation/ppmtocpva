@@ -1,0 +1,15 @@
+diff -p -up ppmtocpva-1.0/ppmtocpva.c.includes ppmtocpva-1.0/ppmtocpva.c
+--- ppmtocpva-1.0/ppmtocpva.c.includes	2001-08-04 23:22:24.000000000 +0200
++++ ppmtocpva-1.0/ppmtocpva.c	2010-01-16 01:40:58.000000000 +0100
+@@ -17,8 +17,9 @@
+ #include <unistd.h>
+ #include <math.h>
+ #include <assert.h>
+-#include <pgm.h>
+-#include <ppm.h>
++#include <string.h>
++#include <netpbm/pgm.h>
++#include <netpbm/ppm.h>
+ 
+ static int highres = 0;
+ static int halftone = 0;

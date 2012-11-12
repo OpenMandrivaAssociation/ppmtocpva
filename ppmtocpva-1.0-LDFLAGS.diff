@@ -1,0 +1,11 @@
+--- Makefile	2008-12-25 21:40:38.000000000 +0100
++++ Makefile.oden	2008-12-25 21:42:44.000000000 +0100
+@@ -1,3 +1,7 @@
++CFLAGS = -Wall
++LIBS = -lnetpbm -lm
++LDFLAGS = 
++
+ ppmtocpva: ppmtocpva.c
+-	gcc ${CFLAGS} -o ppmtocpva  ppmtocpva.c -lnetpbm -lm
++	gcc $(CFLAGS) $(LDFLAGS) -o ppmtocpva  ppmtocpva.c $(LIBS)
+ 
