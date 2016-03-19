@@ -1,7 +1,7 @@
 Summary:	Converts PPM files to the format used by the Citizen Printiva series printers
 Name:		ppmtocpva
 Version:	1.0
-Release:	21
+Release:	22
 License:	GPLv2
 Group:		System/Printing
 Url:		http://www.stevens-bradfield.com/ppmtomd/
