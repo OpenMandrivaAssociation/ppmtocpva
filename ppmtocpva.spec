@@ -17,7 +17,7 @@ series printers and some printers of the Alps MD series.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 # fix attribs
 chmod 644 *
