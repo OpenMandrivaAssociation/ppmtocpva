@@ -4,7 +4,7 @@ Version:	1.0
 Release:	26
 License:	GPLv2
 Group:		System/Printing
-Url:		http://www.stevens-bradfield.com/ppmtomd/
+Url:		https://www.stevens-bradfield.com/ppmtomd/
 Source0:	http://www.dcs.ed.ac.uk/home/jcb/ppmtocpva-%{version}.tar.bz2
 Patch0:		ppmtocpva-1.0-includes.patch
 Patch1:		ppmtocpva-1.0-netpbm.patch
