@@ -9,6 +9,7 @@ Source0:	http://www.dcs.ed.ac.uk/home/jcb/ppmtocpva-%{version}.tar.bz2
 Patch0:		ppmtocpva-1.0-includes.patch
 Patch1:		ppmtocpva-1.0-netpbm.patch
 Patch2:		ppmtocpva-1.0-LDFLAGS.diff
+BuildRequires:	make
 BuildRequires:	netpbm-devel
 
 %description
